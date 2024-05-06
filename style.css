@@ -1,0 +1,212 @@
+/*Background*/
+body{
+    background-image:url(images/background.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    width:100%;
+   
+}
+
+/*Logo*/
+#header{
+     position: fixed;
+      top     : 0;
+      left    : 0;
+      z-index : 500;
+      width   :100%;
+      height  :100px;
+    background-color:#81D0FF;
+}
+
+#header img{
+     display: block;
+     margin : auto;
+    width:30%;
+    
+  
+      
+}
+
+/*Map*/
+#middle-map img{
+   display: block;
+    margin-left: 250px;
+    width:60%;
+padding-top:80px;
+      
+}
+
+/*Top*/
+#top{
+      position: fixed;
+      top     : 80px;
+      left    : 0;
+      z-index : 500;
+      width   : 100%;
+      height  : 50px;
+      background-color:darkcyan;
+}
+
+#top a{
+      float   : left;
+      display : block;
+      width   : 25%;
+      height  :35px;
+      font-weight : 900;
+      color       : white;
+      text-align  : center;
+      text-decoration : none;
+      padding-top     : 12px;  
+}
+
+#top a:hover{
+    color:darkblue;
+        background-color:#FF624A;
+}
+
+/*Bottom*/
+#bottom{
+      position : fixed;
+      bottom   : 0; 
+      left     : 0;
+      z-index  : 500;
+      width    : 100%;
+      height   : 40px;
+      background-color: darkcyan;
+}
+
+#bottom a{
+     float : left;
+     display : block;
+     width : 50%;
+     height : 35px;
+     font-weight : 900;
+     color       : white;
+     text-align  : center;
+     text-decoration : none;
+     padding-top     : none;
+}
+
+#bottom a:hover{
+    color:darkblue;
+        background-color:#FF624A;
+}
+
+/*Middle*/
+
+#box {
+    background-color : rgba(255, 255, 255, .8) ;   
+      width   : 90%;
+      display : block;
+      margin  : auto;
+      margin-top : 150px;
+      padding    : 10px;
+}
+
+#box h2{
+    text-align:center;
+    color:#C61C1C;
+    font-family:inherit;
+    font-size:40px;
+    font-style:oblique;
+    font-weight: 800;
+}
+
+#box p{
+    text-align:center;
+    font-family: sans-serif;
+    font-weight:400;
+    font-size:20px;
+}
+
+#box img{
+    float:left;
+}
+
+/*Feedback*/
+
+input{
+      width: 100%;
+    text-align:center;
+     background-color:#FF7C68;
+      margin : 12px ;
+      border : 1px solid #929292;
+    
+}
+
+/*INFO lists*/
+a.info-box {
+      text-decoration : none;
+      background      : rgba(255 ,225, 255, .8);
+      width           : 80%;
+      height          : 90px;
+      display         : block;
+      margin          : auto;
+      margin-top      : 12px;
+      padding         : 1px; 
+}
+
+.info-box img{
+      height : 100px;
+      float  : left;
+    border: 1px black solid;
+    margin-right: 10px;
+    margin-bottom:10px;
+    margin-left:30px
+   
+}
+
+
+
+.info-box h3{
+      padding : 0;
+      margin-bottom :0;
+      width : 90%;
+      color : black;
+    font-size:40px;}
+
+
+.info-box h5{
+    text-decoration:none; 
+       margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color   : black;
+text-align:left;}
+
+/*INFO FILLED shops*/ 
+.info-box-fill2 img{
+    width:10%;
+    padding-right:10px;
+}
+
+.info-box-fill2 p{
+    text-align:center;
+    color:black;
+    font-size:20px;
+    font-family:serif;
+    
+}
+
+.info-box-fill2 h2{
+    text-align:left;
+}
+
+
+
+/*INFO FILLED movie*/ 
+.info-box-fill img{
+    width:60%;
+    margin-left:250px;
+
+}
+
+.info-box-fill p{
+    text-align:center;
+    color:black;
+    font-size:20px;
+    font-family:serif;
+    
+}
